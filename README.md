@@ -13,7 +13,7 @@
   
   
 # Procedure:
-*
+*We start by stipping down the Pi's Ethernet port and usb hubs replacing the usb hubs whith type C Ports
   
 # Pinnout diagram:
 ![images](https://github.com/user-attachments/assets/bfdf7612-63ad-4e66-82d5-10442df5ab19)
