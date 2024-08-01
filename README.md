@@ -1,22 +1,31 @@
 # Pi-Phone π(concept)
 ### A raspberry pi based linux handheld touch device (for the pi 3/4)  
-![Screenshot 2024-07-29 132701](https://github.com/user-attachments/assets/2148d0e6-7f14-49db-b14e-056db49d99e4)
+![Screenshot 2024-08-01 160623](https://github.com/user-attachments/assets/cf518a6d-3cde-44af-b7a2-b003dfe13c9b)
+![Screenshot 2024-08-01 160635](https://github.com/user-attachments/assets/767e4402-ad77-4d88-9347-cf65bdbe7a20)
 
 
 # List of parts required!
-* LCD Touchscreen HAT for Raspberry Pi - TFT 3.5in. (480x320)
+* 4.3 inch 800*480 LCD display
 * Raspberry pi 3 or 4
-* 6 x 6mm SPST Tactile Switch
+* 6mm Mini Momentary pushbutton
 * 3D Printed casing
-* Pliers
+* 3.7v 5000mah Lithium Polymer Battery
+* Type-C 3.7V/4.2V Charger Module(female)
+* Type C Connector with data(female)
+* Pi-8Mp Camera module
 * adhesive
   
-  
 # Procedure:
-*We start by stipping down the Pi's Ethernet port and usb hubs replacing the usb hubs whith type C Ports
+* Start by stipping down the Pi's Ethernet port and usb hubs replacing the usb hubs whith type C Ports
+* install the battery and camera module into the 3D Case
+* Solder the Charger Module onto the battery and solder wires onto the raspberry pi's pre existing power port. Rewire the USB connections from the pi over to the Type C data port as well as the audio port!
+* align and install the stripped down Pi ontop of the battery (apply insulation tape below and above the Pi before instalation)
+* install the ports onto the case
+*Finish off by closing off the whole enclosure by connecting the ribbon cable of the camera module and display port onto the Pi!
+
   
-# Pinnout diagram:
-![images](https://github.com/user-attachments/assets/bfdf7612-63ad-4e66-82d5-10442df5ab19)
+# Wiring diagram:
+![git](https://github.com/user-attachments/assets/9b349768-3aad-40a7-b112-f7a575debdf4)
 
 
 # 3D Printed case!
@@ -25,25 +34,7 @@
 
 #### The case is designed Compactly sized to fit snugly around your components.this case also maximizes active ventilation and airflow with its well ventilated design
 
-## Subframe and cover!
-![Screenshot 2024-07-27 174204](https://github.com/user-attachments/assets/7f65e525-c3b3-435f-9569-15ffc55a5040)
-this frame is to be glued on top the main frame with magnets to be installed on the given holes
-## Cover:
-### with the choice of 3 diffrent cover plates you can print any one to your liking 
-
-![Screenshot 2024-07-27 174507](https://github.com/user-attachments/assets/c3cdca55-ed8e-418a-997e-11a0f1b840e5)
-#### Acrlyc transparent sheet is required for the blank frame
-#### magnets to be installed on the given holes 
-![Screenshot 2024-07-28 094056](https://github.com/user-attachments/assets/409b2dfa-8bd4-4599-a1f3-30d20f077dd5)
-
-## The case is also uploaded opensource in this page where you can download and modify your case to your liking!
-
-# Code for the power button:
-```Script for shutdown:
-git clone https://github.com/Howchoo/pi-power-button.git
-
-./pi-power-button/script/install
-````
 # Final Build!
+![git](https://github.com/user-attachments/assets/9b349768-3aad-40a7-b112-f7a575debdf4)
 
 
