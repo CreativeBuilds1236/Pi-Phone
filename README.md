@@ -29,10 +29,11 @@
 
 
 # 3D Printed case!
-## Main Frame!
-![Screenshot 2024-07-27 174138](https://github.com/user-attachments/assets/efd501df-3851-4207-8dd5-e792f931b31f)
+## Main Enclosure!
+![Screenshot 2024-08-01 190415](https://github.com/user-attachments/assets/e2a588a8-8c92-4282-b470-075eb8c58c30)
 
-#### The case is designed Compactly sized to fit snugly around your components.this case also maximizes active ventilation and airflow with its well ventilated design
+![Screenshot 2024-08-01 190701](https://github.com/user-attachments/assets/0eafaab8-6d3a-4e9f-a736-e288c96b628c)
+
 
 # Final Build!
 ![git](https://github.com/user-attachments/assets/9b349768-3aad-40a7-b112-f7a575debdf4)
